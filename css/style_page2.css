@@ -1,0 +1,29 @@
+@import url("style_index.css");
+
+/* Перший абзац: Темно-зелений, напівжирний */
+p:first-of-type {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* Другий абзац: Курсив */
+p:nth-of-type(2) {
+    font-style: italic;
+}
+
+/* Третій абзац: Останнє речення зробити зеленим */
+span{
+    color: green;
+}
+
+.img_left {
+    width: 30%;
+    float: left;
+    margin-right: 10px; /* Відступ між зображенням і текстом */
+  }
+
+  .img_right {
+    width: 30%;
+    float: right;
+    margin-right: 10px; /* Відступ між зображенням і текстом */
+  }
